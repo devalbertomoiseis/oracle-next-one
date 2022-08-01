@@ -1,14 +1,14 @@
-var tela = document.querySelector('canvas');
-    var pincel = tela.getContext('2d');
+function desenhaCirculo(evento) {
+    var x = evento.pageX - tela.offsetLeft;
+    var y = evento.pageY - tela.offsetTop;
 
-    pincel.fillStyle = 'grey';
-    pincel.fillRect(0, 0, 600, 400);
+    pincel.fillStyle="blue";
+    pincel.beginPath();
+    pincel.arc(x, y, 10, 0, 2*3.14);
+    pincel.fill();
 
-    function exibeAlerta(evento) {
+    console.log("posição do clique : " + x + ", " + y);
+}
 
-        alert('Cliquei');
-        console.log(evento);
-
-    }
-
-    tela.onclick = exibeAlerta;
+// não esqueça de mudar aqui
+tela.onclick = desenhaCirculo;
