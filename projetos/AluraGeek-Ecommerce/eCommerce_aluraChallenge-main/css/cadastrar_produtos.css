@@ -1,0 +1,21 @@
+@import url("../css/base.css");
+@import url("../css/cards.css");
+
+.addProducts{
+    background-color: var(--soft-grey);
+}
+
+.addProducts__content{
+    padding: 2rem;
+}
+
+.addProducts__title{
+    padding-bottom: 1rem;
+    color: var(--dark-grey);
+    font-weight: 700;
+    font-size: 1.375rem;
+}
+
+/* .products{
+    display: flex;
+} */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login_main.css">
+    <link rel="shortcut icon" href="../assets/icons/icon_logo.svg" type="image/x-icon">
+    <title>Login | Alura Geek</title>
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img class="header__logo" src="../assets/img/Logo.png" alt="logo da Alura Geek"></a>
+        <div class="header__search">
+            <input class="header__input" type="text" placeholder="O que deseja encontrar?">
+            <button class="header__searchButton" type="submit"></button>
+        </div>    
+        <a href="#" class="header__buttonLogin">Login</a>
+    </header>
+    <main>
+        <section class="login">
+            <h2 class="login__title">Iniciar Sessão</h2>
+            <div class="login__content">
+                <label class="sr-only" for="email">Escreva seu email</label>
+                <input id="email" class="login__input" type="email" placeholder="Escreva seu email">
+                <label class="sr-only" for="email">Escreva sua senha</label>
+                <input class="login__input" type="password" placeholder="Escreva sua senha">
+                <a class="login__button button__cta" href="#">Entrar</a>
+            </div>     
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__structure">
+            <div class="footer__content">
+                <a href="../index.html"><img class="footer__logo" src="../assets/img/Logo.png" alt="logo da Alura Geek"></a>
+
+                <div class="footer__options">
+                    <a class="footer__links" href="#">Quem somos nós</a>
+                    <a class="footer__links" href="#">Política de privacidade</a>
+                    <a class="footer__links" href="#">Programa fidelidade</a>
+                    <a class="footer__links" href="#">Nossas lojas</a>
+                    <a class="footer__links" href="#">Quero ser franqueado</a>
+                    <a class="footer__links" href="#">Anuncie aqui</a>
+                </div>
+
+            </div>
+
+            <div class="footer__contact">
+                <h2 class="footer__contactTitle">Fale conosco</h2>
+                <div class="footer__contactForm">
+                    <label class="footer__contactName--label" for="contact__nameForm">Nome</label>
+                    <input class="footer__contactName" type="text" id="contact__nameForm">
+                    <label class="footer__contactEmail--label" for="contact__emailForm">Email</label>
+                    <input class="footer__contactEmail" type="text" id="contact__emailForm">
+                    <textarea class="footer__contactMessage" name="" id="#" cols="30" rows="10"
+                        placeholder="Escreva sua mensagem"></textarea>
+                    <button type="submit" class="footer__contactButton button__cta">Enviar mensagem</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer__copy">
+            <h4> &copy; Desenvolvido por Jéssica Motta 2022</h4>
+        </div>
+    </footer>
+    
+</body>
+</html>

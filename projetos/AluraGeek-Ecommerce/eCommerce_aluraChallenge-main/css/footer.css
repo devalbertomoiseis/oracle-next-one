@@ -1,0 +1,158 @@
+.footer {
+  background-color: var(--light-blue);
+}
+
+.footer__logo {
+  margin-top: 1rem;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.footer__options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__links {
+  text-decoration: none;
+  color: var(--dark-grey);
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.footer__contact {
+  margin: 2rem 0.75rem 0.5rem;
+}
+
+.footer__contactTitle {
+  color: var(--dark-grey);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer__contactForm {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contactName--label {
+  position: absolute;
+  z-index: 1;
+  margin: 0.75rem;
+  font-family: var(--font-raleway);
+  font-weight: 400;
+  color: var(--light-grey);
+}
+
+.footer__contactEmail--label {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5rem;
+  margin-left: 0.75rem;
+  font-family: var(--font-raleway);
+  font-weight: 400;
+  color: var(--light-grey);
+}
+
+.footer__contactName,
+.footer__contactEmail {
+  border: none;
+  color: var(--dark-grey);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.75rem 0.75rem 0.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.footer__contactName::placeholder,
+.footer__contactEmail::placeholder {
+  color: var(--light-grey);
+  font-family: var(--font-raleway);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer__contactMessage {
+  border: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem 0.75rem 2.875rem;
+  resize: none;
+  font-family: var(--font-raleway);
+}
+
+.footer__contactMessage:focus {
+  border-color: var(--blue);
+}
+
+.footer__contactMessage::placeholder {
+  color: var(--light-grey);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer__contactButton {
+  width: fit-content;
+}
+
+.footer__copy {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 3.9375rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .footer__structure {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .footer__content {
+    width: 25vw;
+    align-items: flex-start;
+    padding: 0 1rem 0 0;
+  }
+
+  .footer__options {
+    align-items: flex-start;
+  }
+
+  .footer__contact {
+    width: 75vw;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .footer__structure {
+    padding: 2rem 0;
+    margin: 0 152px;
+  }
+
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+  }
+
+  .footer__options {
+    width: max-content;
+    padding: 0 112px 0 112px;
+  }
+
+  .footer__contact {
+    width: 50vw;
+    margin: 0;
+  }
+}

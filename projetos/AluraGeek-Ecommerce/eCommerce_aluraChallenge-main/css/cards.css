@@ -1,0 +1,43 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  width: 156px;
+  margin-top: 1rem;
+}
+
+.card__image {
+  width: 156px;
+}
+
+.card__title {
+  color: var(--dark-grey);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.25rem 0;
+}
+
+.card__price {
+  color: var(--dark-grey);
+  font-weight: 600;
+  padding: 0.25rem 0;
+}
+
+.card__button {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: 600;
+  padding: 0.25rem 0;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+   .cards {
+    padding: 0;
+  }
+}

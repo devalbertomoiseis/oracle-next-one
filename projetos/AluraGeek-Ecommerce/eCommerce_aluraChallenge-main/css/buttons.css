@@ -1,0 +1,24 @@
+.button__cta {
+  background-color: var(--blue);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  cursor: pointer;
+}
+
+.button__cta:hover {
+  background-color: white;
+  color: var(--blue);
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .button__cta {
+    margin: 1rem 0;
+  }
+}

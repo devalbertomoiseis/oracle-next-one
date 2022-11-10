@@ -1,0 +1,31 @@
+@import url('./header.css');
+@import url('./buttons.css');
+@import url('./footer.css');
+
+:root {
+  --blue: #2a7ae4;
+  --light-blue: #eaf2fd;
+  --dark-grey: #464646;
+  --light-grey: #a2a2a2;
+  --soft-grey: #F5F5F5;
+
+  --font-raleway: "Raleway", sans-serif;  
+}
+
+
+
+body {
+  font-family: var(--font-raleway)
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
