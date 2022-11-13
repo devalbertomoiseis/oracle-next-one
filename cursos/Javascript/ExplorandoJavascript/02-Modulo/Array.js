@@ -4,3 +4,5 @@ const listaDeDestinos = new Array(
     `Recife`
 );
 console.table(listaDeDestinos)
+listaDeDestinos.splice(1,1);
+console.table(listaDeDestinos[1])
